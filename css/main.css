@@ -1,0 +1,64 @@
+.main {
+  background-repeat: no-repeat;
+  background-image: url("../img/main_bcgrimg.png");
+  background-position: 65rem 8rem;
+}
+
+.main_our {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5rem;
+  padding-bottom: 3rem;
+}
+
+.main_des {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.main_title {
+  color: #242a45;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 52px;
+  letter-spacing: -0.15px;
+}
+
+.main_text {
+  color: #9194a1;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.main_btns {
+  display: flex;
+  column-gap: 20px;
+}
+
+.main_btn_light {
+  padding: 10px 24px;
+  color: #fff;
+  cursor: pointer;
+  border-style: none;
+  border-radius: 5px;
+  background: #5267df;
+  box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.2);
+}
+
+.main_btn_dark {
+  padding: 10px 24px;
+  color: #242a45;
+  border-style: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background: #f7f7f7;
+  box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.2);
+}
+
+
+
